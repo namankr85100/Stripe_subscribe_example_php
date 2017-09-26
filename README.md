@@ -18,11 +18,13 @@ In your index.php file add a basic cherckout. Where is says 'data-key="pk_test_G
     data-zip-code="true"
     data-currency="gbp">
   </script>
-</form>```
+</form>
+```
 
 You can see that ourt action is plan.php. Make a file called plan.php in the same root directory. In plan.php paste the code below. 
 
-```<?php
+```
+<?php
 
 require_once('vendor/autoload.php');
 
@@ -58,6 +60,7 @@ $subscription = \Stripe\Subscription::create(array(
 
 print_r($subscription);
 
-?>```
+?>
+```
 
 Hope that helps. Any questions you can get me on twitter @sab8a

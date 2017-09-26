@@ -3,7 +3,7 @@
 
 First install stripe with composter 'composer require stripe/stripe-php"
 
-In your index.php file add a basic cherckout. Where is says 'data-key="pk_test_GET THIS FROM STRIPE"' get your api key from stripe.
+In your index.php file add a basic cherckout. Where is says **pk_test_GET THIS FROM STRIPE** get your api key from stripe.
 
 ```
 <form action="plan.php" method="POST">
@@ -21,7 +21,7 @@ In your index.php file add a basic cherckout. Where is says 'data-key="pk_test_G
 </form>
 ```
 
-You can see that ourt action is plan.php. Make a file called plan.php in the same root directory. In plan.php paste the code below. 
+You can see that ourt action is plan.php. Make a file called plan.php in the same root directory. In plan.php paste the code below. Again where it says **sk_test_ GET THIS FROM STRIPE** you need to replace this with your stripe api key
 
 ```
 <?php
@@ -63,4 +63,4 @@ print_r($subscription);
 ?>
 ```
 
-Hope that helps. Any questions you can get me on twitter @sab8a
+Hope that helps. Any questions you can get me on [twitter @sab8a](https://www.twitter.com/sab8a) 
